@@ -1,0 +1,31 @@
+{
+  "name": "angular2-library-seed",
+  "version": "1.0.0",
+  "description": "A seed repository for building your own Angular 2 library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhades/angular2-library-seed.git"
+  },
+  "keywords": [
+    "Angular",
+    "2",
+    "Library",
+    "Seed"
+  ],
+  "author": "jhades.dev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhades/angular2-library-seed/issues"
+  },
+  "homepage": "https://github.com/jhades/angular2-library-seed#readme",
+  "devDependencies": {
+    "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0"
+  }
+}
