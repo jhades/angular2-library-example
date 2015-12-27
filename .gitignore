@@ -3,4 +3,5 @@ node_modules
 jspm_packages
 .idea
 lib
+build
 

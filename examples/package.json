@@ -2,14 +2,21 @@
   "name": "examples",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "rm -rf build && tsc -p src -w",
+    "start": "http-server -c-1 ."
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "http-server": "^0.8.5",
     "jspm": "^0.16.19",
     "typescript": "^1.7.5"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.0"
+    },
+    "devDependencies": {}
   }
 }
