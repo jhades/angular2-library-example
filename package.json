@@ -4,7 +4,8 @@
   "description": "A seed repository for building your own Angular 2 library",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc -p src"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "typescript": "^1.7.5"
   },
   "dependencies": {
-    "angular2": "2.0.0-beta.0"
+    "angular2": "2.0.0-beta.0",
+    "rxjs": "^5.0.0-beta.0"
   }
 }
