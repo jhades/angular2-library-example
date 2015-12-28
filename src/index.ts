@@ -1,5 +1,1 @@
-import {HelloWorld} from './components/HelloWorld';
-
-export {
-    HelloWorld
-}
+export {HelloWorld} from './components/HelloWorld';
