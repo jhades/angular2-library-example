@@ -16,7 +16,8 @@
   "jspm": {
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-beta.0",
-      "angular2-library-seed": "npm:angular2-library-seed@^1.0.0"
+      "angular2-library-seed": "npm:angular2-library-seed@^1.0.0",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2"
     },
     "devDependencies": {}
   }
