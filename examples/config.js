@@ -1,7 +1,7 @@
 System.config({
   baseURL: "/",
   defaultJSExtensions: true,
-  transpiler: "none",
+  transpiler: false,
   paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
@@ -9,6 +9,7 @@ System.config({
 
   map: {
     "angular2": "npm:angular2@2.0.0-beta.0",
+    "angular2-library-seed": "npm:angular2-library-seed@1.0.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -41,6 +42,10 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "npm:angular2-library-seed@1.0.0": {
+      "angular2": "npm:angular2@2.0.0-beta.0",
+      "rxjs": "npm:rxjs@5.0.0-beta.0"
     },
     "npm:angular2@2.0.0-beta.0": {
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
