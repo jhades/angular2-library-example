@@ -1,4 +1,4 @@
 
 # TODO
 
-try webpack for building the sample app
+use webpack for the sample app
