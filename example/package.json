@@ -10,19 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jspm": "^0.16.19",
     "typescript": "^1.7.5"
-  },
-  "jspm": {
-    "dependencies": {
-      "angular2-library-example": "npm:angular2-library-example@^1.0.2",
-      "reflect-metadata": "npm:reflect-metadata@^0.1.2"
-    },
-    "devDependencies": {}
   },
   "dependencies": {
     "angular2": "^2.0.0-beta.0",
+    "angular2-library-example": "^1.0.2",
     "http-server": "^0.8.5",
-    "rxjs": "^5.0.0-beta.0"
+    "ng2-translate": "^1.2.4",
+    "rxjs": "^5.0.0-beta.0",
+    "systemjs": "^0.19.9"
   }
 }

@@ -5,14 +5,27 @@
     <meta charset="UTF-8">
     <title>Example TODO Application using the ng2-store</title>
 
-    <script src="jspm_packages/system.js"></script>
-    <script src="config.js"></script>
+    <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="/node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="/node_modules/systemjs/dist/system.src.js"></script>
+    <script src="/node_modules/angular2/bundles/http.min.js"></script>
 
-    <!-- for the moment not using jspm install angular2 - change detection not working -->
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.js"></script>
-    <script src="node_modules/angular2/bundles/http.js"></script>
+    <script>
+        System.config({
+            defaultJSExtensions: true,
+            packages: {
+                "/angular2": {"defaultExtension": false}
+            },
+            map: {
+                'ng2-translate': 'node_modules/ng2-translate',
+                'angular2-library-example': 'node_modules/angular2-library-example/lib/index',
+                'rxjs': 'node_modules/rxjs'
+            }
+        });
+    </script>
+
+    <script src="/node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="/node_modules/angular2/bundles/angular2.js"></script>
 
     <script>
         System.import('build/App').catch(console.log.bind(console));
