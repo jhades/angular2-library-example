@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Example TODO Application using the ng2-store</title>
+
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+
+    <!-- for the moment not using jspm install angular2 - change detection not working -->
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="node_modules/angular2/bundles/http.dev.js"></script>
+
+    <script>
+        System.import('build/App').catch(console.log.bind(console));
+    </script>
+
+</head>
+<body>
+
+<app></app>
+
+</body>
+</html>
