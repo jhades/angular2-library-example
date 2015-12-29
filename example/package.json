@@ -15,7 +15,8 @@
   },
   "jspm": {
     "dependencies": {
-      "angular2-library-example": "npm:angular2-library-example@^1.0.2"
+      "angular2-library-example": "npm:angular2-library-example@^1.0.2",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2"
     },
     "devDependencies": {}
   },

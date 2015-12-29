@@ -9,6 +9,7 @@ System.config({
 
   map: {
     "angular2-library-example": "npm:angular2-library-example@1.0.2",
+    "reflect-metadata": "npm:reflect-metadata@0.1.2",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
