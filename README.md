@@ -1,4 +1,5 @@
 
 # TODO
 
-use webpack for the sample app
+- build a webpack sample app -> https://github.com/angular/angular/issues/4278
+
