@@ -3,10 +3,7 @@
 import {Component} from 'angular2/core';
 import {bootstrap} from 'angular2/platform/browser';
 
-import {HelloWorld} from 'angular2-library-example';
-//import {HelloWorld} from './HelloWorld';
-//import {HelloWorld} from '../jspm_packages/npm/angular2-library-example@1.0.2/lib/components/HelloWorld';
-
+import {HelloWorld} from 'angular2-library-example/components';
 import {TranslateService, TranslatePipe} from 'ng2-translate/ng2-translate';
 
 
