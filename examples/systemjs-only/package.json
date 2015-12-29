@@ -18,6 +18,7 @@
     "angular2-library-example": "^1.0.2",
     "es6-shim": "^0.34.0",
     "http-server": "^0.8.5",
+    "reflect-metadata": "^0.1.2",
     "systemjs": "^0.19.9"
   }
 }
