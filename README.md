@@ -6,8 +6,9 @@ An example repository for learning how to build your own Angular 2 library. Lear
 - setup a library namespace
 - build the library
 - version it
-- publish it to npm 
-- consume it with either SystemJs or Webpack
+- publish it to npm
+- package the CSS
+- consume the library with SystemJs or Webpack
 
 See further details in this blog post - [How to create an Angular 2 component library](http://blog.jhades.org/how-to-create-an-angular-2-library/)
 
