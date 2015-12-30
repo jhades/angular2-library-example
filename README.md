@@ -21,7 +21,7 @@ Clone the repository and do:
 
     npm run build
     
-# Install the SystemJs Example 
+## Install the SystemJs Example 
     
     cd examples/systemjs
     npm install
@@ -30,7 +30,7 @@ Clone the repository and do:
     
 Then access [localhost://8080](localhost://8080).
 
-# Install the SystemJs Example 
+## Install the Webpack Example 
     
     cd examples/webpack
     npm install
