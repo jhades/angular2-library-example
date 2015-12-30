@@ -1,5 +1,2 @@
 
-# TODO
-
-- build a webpack sample app -> https://github.com/angular/angular/issues/4278
-
+## angular2-library-example
