@@ -1,5 +1,5 @@
 
-# Learn how to build an Angular 2 Library
+# Learn how to create an Angular 2 Library
 
 An example repository for learning how to build your own Angular 2 library. Learn how to:
 
