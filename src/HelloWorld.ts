@@ -1,6 +1,5 @@
 
 import {Component} from 'angular2/core';
-import {ViewEncapsulation} from 'angular2/core';
 
 @Component({
     selector: 'hello-world',
