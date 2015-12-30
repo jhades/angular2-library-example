@@ -28,7 +28,7 @@ Clone the repository and do:
     npm run build
     npm start
     
-Then access [http://localhost://8080](http://localhost://8080).
+Then access [http://localhost://8080](http://localhost://8080)
 
 ## Install the Webpack Example 
     
@@ -36,4 +36,4 @@ Then access [http://localhost://8080](http://localhost://8080).
     npm install
     npm start
     
-Then access [http://localhost://8080](http://localhost://8080).
+Then access [http://localhost://8080](http://localhost://8080)
