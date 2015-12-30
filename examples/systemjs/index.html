@@ -29,8 +29,16 @@
         System.import('build/App').catch(console.log.bind(console));
     </script>
 
+    <style>
+
+        [override] hello-world h1 {
+            color:red;
+        }
+
+    </style>
+
 </head>
-<body>
+<body override>
 
 <app></app>
 

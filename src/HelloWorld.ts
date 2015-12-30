@@ -10,7 +10,9 @@ import {ViewEncapsulation} from 'angular2/core';
             color: blue;
         }
     `],
-    template: `<h1 (click)="onClick()">{{message}}</h1>`
+    template: `<div>
+                  <h1 (click)="onClick()">{{message}}</h1>
+               </div>`
 })
 export class HelloWorld {
 
