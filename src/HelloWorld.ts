@@ -4,7 +4,6 @@ import {ViewEncapsulation} from 'angular2/core';
 
 @Component({
     selector: 'hello-world',
-    encapsulation: ViewEncapsulation.Emulated,
     styles: [`
        h1 {
             color: blue;
