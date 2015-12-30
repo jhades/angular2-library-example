@@ -5,8 +5,6 @@ An example repository for learning how to build your own Angular 2 library. Lear
 
 See further details in this blog post - [How to create an Angular 2 component library](http://blog.jhades.org/how-to-create-an-angular-2-library/)
 
-Note: In the future probably [angular-cli](https://github.com/angular/angular-cli) will have scaffolding for building modules using multiple module systems
-
 # Installation
 
 Clone the repository and do:
