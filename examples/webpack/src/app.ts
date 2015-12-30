@@ -1,5 +1,4 @@
 import 'angular2/bundles/angular2-polyfills';
-//import 'reflect-metadata';
 import {Component} from 'angular2/core';
 import {bootstrap} from 'angular2/platform/browser';
 import {HelloWorld} from 'angular2-library-example/components';
