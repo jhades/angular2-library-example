@@ -3,7 +3,7 @@
 
 An example repository for learning how to build your own Angular 2 library. Learn how to:
 
-- setup a library namespace
+- setup the library public API
 - build the library
 - version it
 - publish it to npm
