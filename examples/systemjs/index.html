@@ -5,25 +5,58 @@
     <meta charset="UTF-8">
     <title>Example TODO Application using the ng2-store</title>
 
-    <script src="/node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="/node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="/node_modules/systemjs/dist/system.src.js"></script>
-    <script src="/node_modules/angular2/bundles/http.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
 
     <script>
-        System.config({
-            defaultJSExtensions: true,
-            packages: {
-                "/angular2": {"defaultExtension": false}
-            },
-            map: {
-                'angular2-library-example': 'node_modules/angular2-library-example'
-            }
+        var packages = {
+            'app': {main: 'main.js', defaultExtension: 'js'},
+            'rxjs': {defaultExtension: 'js'},
+            'angular2-in-memory-web-api': {defaultExtension: 'js'},
+        };
+
+        var packageNames = [
+            '@angular/common',
+            '@angular/compiler',
+            '@angular/core', // <--------
+            '@angular/http',
+            '@angular/platform-browser',
+            '@angular/platform-browser-dynamic',
+            '@angular/router',
+            '@angular/router-deprecated',
+            '@angular/testing',
+            '@angular/upgrade'
+        ];
+
+        packageNames.forEach(function (pkgName){
+            packages[pkgName] = {main: 'index.js', defaultExtension: 'js'};
         });
+
+        var map = {
+            '@angular': 'node_modules/@angular',
+            'rxjs': 'node_modules/rxjs',
+            'angular2-library-example': 'node_modules/angular2-library-example'
+        };
+
+        var config = {
+            defaultJSExtensions: true,
+            map: map,
+            packages: packages
+        };
+
+        System.config(config);
+
     </script>
 
-    <script src="/node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="/node_modules/angular2/bundles/angular2.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
+    <script src="node_modules/@angular/core/core.umd.js"></script>
+    <script src="node_modules/@angular/common/common.umd.js"></script>
+    <script src="node_modules/@angular/compiler/compiler.umd.js"></script>
+    <script src="node_modules/@angular/platform-browser/platform-browser.umd.js"></script>
+    <script src="node_modules/@angular/platform-browser-dynamic/platform-browser-dynamic.umd.js"></script>
 
     <script>
         System.import('build/App').catch(console.log.bind(console));
