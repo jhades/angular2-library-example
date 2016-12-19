@@ -1,6 +1,6 @@
 
-import {Component} from 'angular2/core';
-import {bootstrap} from 'angular2/platform/browser';
+import {Component} from '@angular/core';
+import {bootstrap} from '@angular/platform-browser-dynamic';
 import {HelloWorld} from 'angular2-library-example/components';
 
 

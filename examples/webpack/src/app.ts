@@ -1,6 +1,8 @@
-import 'angular2/bundles/angular2-polyfills';
-import {Component} from 'angular2/core';
-import {bootstrap} from 'angular2/platform/browser';
+import 'zone.js/dist/zone';
+import 'reflect-metadata';
+
+import {Component} from '@angular/core';
+import {bootstrap} from '@angular/platform-browser-dynamic';
 import {HelloWorld} from 'angular2-library-example/components';
 
 

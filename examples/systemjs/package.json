@@ -14,11 +14,20 @@
     "typescript": "^1.7.5"
   },
   "dependencies": {
-    "angular2": "^2.0.0-beta.0",
-    "angular2-library-example": "^1.0.2",
-    "es6-shim": "^0.35.0",
     "http-server": "^0.8.5",
+    "systemjs": "^0.19.9",
+    "@angular/common":  "2.0.0-rc.1",
+    "@angular/compiler":  "2.0.0-rc.1",
+    "@angular/core":  "2.0.0-rc.1",
+    "@angular/http":  "2.0.0-rc.1",
+    "@angular/platform-browser":  "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic":  "2.0.0-rc.1",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js":"^0.6.12",
+    "angular2-library-example": "^1.0.6",
+    "es6-promise": "^3.0.2",
+    "core-js": "^2.4.0",
     "reflect-metadata": "0.1.2",
-    "systemjs": "^0.19.9"
+    "ts-loader": "^0.8.2"
   }
 }
